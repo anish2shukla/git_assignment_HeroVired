@@ -70,7 +70,7 @@ git stash
 15. Merged `dev` to `master`
 ---
 
-## **🚀 How to Run**
+## ** How to Run**
 
  Q1. CalculatorPlus App
 Navigate to the **CalculatorPlus** directory and run:
@@ -78,22 +78,18 @@ Navigate to the **CalculatorPlus** directory and run:
 python app.py
 ```
 
- Q2. Large binary file with Git FFS
+Q2. Large binary file with Git FFS
 1. **Checkout branch** : `lfs`
 2. Navigate to the **LFS** directory 
 3. Able to find **Large binary file** as *testFile.zip*
 
- Q3. Geometry Calculator
+Q3. Geometry Calculator
 Navigate to the **GeometryCalculator** directory and run:
 ```bash
 python app.py
 ```
 ---
 
-
-> 📌 Note: `lfs` branch is kept **separated and not mergerd** with `master` to isolate  Git LFS functionality as a separate demonstration.
-
----
 
 ## 🔍 Git Commands Used
 
