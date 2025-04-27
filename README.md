@@ -1,6 +1,6 @@
 # Graded Assignment: Git and GitHub
 
-## 📘 Overview
+##  Overview
 
 This repository demonstrates Git and GitHub workflows including branching, merging,PR, LFS, and stash operations.
 
@@ -11,9 +11,7 @@ This repository demonstrates Git and GitHub workflows including branching, mergi
 -Python, Git, GitHub
 
 
-## ✅ Questions & Implementation Summary
-
-
+##  Questions & Implementation Summary
 
 ### **Q1: Feature Implementation in CalculatorPlus App**
 
@@ -26,7 +24,7 @@ This repository demonstrates Git and GitHub workflows including branching, mergi
 6. Pull Request and code review : feature/sqrt ➝ main Merged feature/sqrt to dev Finalally Merged dev to main and created a release tagged as v2.0
 
 
-### **Q2: Git LFS Integration**
+### Q2: Git LFS Integration
 #### Steps:
 
 1. Created Branch: `lfs`
