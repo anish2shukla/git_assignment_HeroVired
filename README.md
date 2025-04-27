@@ -26,115 +26,72 @@ This repository demonstrates Git and GitHub workflows including branching, mergi
 6. Pull Request and code review : feature/sqrt ➝ main Merged feature/sqrt to dev Finalally Merged dev to main and created a release tagged as v2.0
 
 
-
-#### 🔁 Further Feature Sqrt Workflow
-
-9. **New Branch**: `feature/sqrt` created from `dev`
-10. **Square Root Logic Added**
-11. **Bug Reported**: In `divide()` method
-12. **Fix Applied in `dev`**: 
-```python
-def divide(self, a, b):
-    if b == 0:
-        raise ValueError("Cannot divide by zero.")
-    return a / b
-
-```
-13.  **Pull Request Raised**: `feature/sqrt` ➝ `main`
-14.  **Peer Review**: Review requested, feedback applied
-15.  **Merged** `feature/sqrt` ➝ `dev`, tested
-16.  **Final Merge**: `dev` ➝ `main`
-17.  **Release Created**: Tagged as `v2.0`
-
----
-
 ### **Q2: Git LFS Integration**
-#### 🔨 Steps Followed:
+#### Steps:
 
-1. **Created Branch**: `lfs`
-2. **Configured Git LFS**:
-```bash
+1. Created Branch: `lfs`
+2. Git LFS configuration:
+```bash command
 git lfs install
 git lfs track "*.zip"
 ```
-3. **Added Large File**: Uploaded a file >200MB (e.g., testFile.zip)
-4. **Committed & Pushed**: Ensured LFS tracked file properly
-5. **Clone Verification**: Cloned repo on another system to validate zip file download
+3.  Uploaded a file >200MB
+4. Committed & Pushed to Ensured LFS tracked file properly
+5. Cloned repo on another system to validate zip file download
 
 ---
 
 ### **Q3: Geometry Calculator with Git Stash**
-#### 🔨 Steps Followed:
-#### 🟠 Circle Area Feature
+#### Steps:
+#### Circle Area:
 
-1. **Created branch**: `feature/circle-area`
-2. **Began implementing**: `calculate_circle_area` function
-3. **Stashed Incomplete Work**:
+1. Created branch  `feature/circle-area` and started implementing `calculate_circle_area` function
+2. Stashed Incomplete Work:
 ```bash
 git stash
 ```
-4. **Verified working directory clean**
 
-#### 🟡 Rectangle Area Feature
+####  Rectangle Area Feature
 
-5. **Created branch**: `feature/rectangle-area`
-6. **Began implementing**: `calculate_rectangle_area` function
-7. **Stashed Incomplete Work**
-8. **Verified working directory clean**
+3. Created branch `feature/rectangle-area` and started implementing `calculate_rectangle_area` function
+4. Stashed Incomplete Work
+5.Verified working directory clean
 
-#### 🟢 Completed Features
 
-9. **Switched back to** `feature/circle-area`
-10. **Retrieved stash & completed circle area code**
-11. **Committed & pushed**
-12. **Switched to** `feature/rectangle-area`
-13. **Retrieved stash & completed rectangle area code**
-14. **Committed & pushed**
+6. Switched back to `feature/circle-area` branch
+7. Get the stashed code & completed circle area code then Commit & push.
+8. Switch to `feature/rectangle-area` branch
+9.  Get the stashed code & completed rectangle area code commit & push.
 
-#### 🔁 Pull Requests
-15. **Created PRs to `dev` from both branches**
-16. **Requested review and got approval**
-17. **Merged both features to `dev`**
-18. **Ceated PR to `master` from `dev`**
-19. **Requested review and got approval**
-20. **Merged `dev` to `master`**
+ 🔁 Pull Requests
+10. Created PRs to `dev` from both branches
+11. Reviewed and approved by reviewer
+12. Merged both features to `dev`
+13. Ceated PR to `master` from `dev`
+14. Requested review and got approval
+15. Merged `dev` to `master`
 ---
 
 ## **🚀 How to Run**
 
-### Q1. CalculatorPlus App
+ Q1. CalculatorPlus App
 Navigate to the **CalculatorPlus** directory and run:
 ```bash
 python app.py
 ```
 
-### Q2. Large binary file with Git FFS
+ Q2. Large binary file with Git FFS
 1. **Checkout branch** : `lfs`
 2. Navigate to the **LFS** directory 
 3. Able to find **Large binary file** as *testFile.zip*
 
-### Q3. Geometry Calculator
+ Q3. Geometry Calculator
 Navigate to the **GeometryCalculator** directory and run:
 ```bash
 python app.py
 ```
 ---
 
-
-## 📁 Folder Structure  
-
-```
-git_assignment_HeroVired/
-│─── README.md
-│
-├─── CalculatorPlus
-│       app.py
-│
-├─── GeometryCalculator
-│       app.py
-│
-└─── LFS
-```
 
 > 📌 Note: `lfs` branch is kept **separated and not mergerd** with `master` to isolate  Git LFS functionality as a separate demonstration.
 
@@ -148,7 +105,7 @@ git_assignment_HeroVired/
 git init
 git clone
 git add .
-git commit -m "message"
+git commit -m "message"9[-
 git push origin <branch_name>
 git pull origin <branch_name>
 
@@ -172,15 +129,8 @@ git push tag
 
 ---
 
-## 🙌 Collaboration
+Collaboration
 
-- Added **[@anish2shukla](https://github.com/anish2shukla)** and **[@KevinKoreth](https://github.com/KevinKoreth)** as a collaborator to the repository as per the assignment requirement.
-- Provided multiple code reviews to **[@anish2shukla](https://github.com/anish2shukla)** and **[@KevinKoreth](https://github.com/KevinKoreth)** on their GitHub repository.
+- Added [@kushal1997](https://github.com/kushal1997) and **[@govind02420](https://github.com/govind02420) as collaborator to the repository as per the assignment requirement.
+- Provided code reviews to [@kushal1997](https://github.com/kushal1997) on the GitHub repository.
 
----
-
-## 👤 Author
-
-- **U KUSHAL RAO**
-- GitHub: [@kushal1997](https://github.com/kushal1997)
-- Email: kushalrao103@gmail.com
