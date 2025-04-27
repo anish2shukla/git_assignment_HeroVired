@@ -2,19 +2,14 @@
 
 ## 📘 Overview
 
-This repository `git_assignment_HeroVired` was created as part of a graded assignment to demonstrate Git and GitHub workflows including branching, merging, pull requests, Git LFS, and stash operations.
+This repository demonstrates Git and GitHub workflows including branching, merging,PR, LFS, and stash operations.
 
 ---
 
 ## 🛠 Tech Stack 
 
-- **Language:** Python
-- **Version Control:** Git
-- **Platform:** GitHub
-- **Git Features Used:** Branching, Merging, Pull Requests, Tags, Git LFS, Git Stash
-- **Collaboration Tools:** GitHub Collaborators, Code Reviews
+-Python, Git, GitHub
 
----
 
 ## ✅ Questions & Implementation Summary
 
@@ -24,14 +19,14 @@ This repository `git_assignment_HeroVired` was created as part of a graded assig
 
 #### 🔨 Steps Followed:
 
-1. **Created Repository**: `git_assignment_HeroVired`
-2. **Branch Created**: `dev`
-3. **Initial Code Added**:
+1. ** Created a Repository: git_assignment_HeroVired Branch -Dev
+2. **Added initial code:
     - Basic arithmetic functions: add, subtract, multiply, divide
-4. **Tested Code**: All basic arithmatic functions were tested
-5. **Merged to Master**: `dev` branch merged to `main`
-6. **Created Release**: Tagged as `v1.0`
-7. **Collaborator Added**: A classmate added to collaborate on GitHub
+3. **Tested Code**: All basic arithmatic functions were tested
+4. **Merged dev branch to main and created a release Tagged as v1.0
+5. **Code Review and Collaboration with a colleaugue on GitHub
+6. **Pull Request and code review : feature/sqrt ➝ main Merged feature/sqrt to dev Finalally Merged dev to main and created a release tagged as v2.0
+
 
 
 #### 🔁 Further Feature Sqrt Workflow
