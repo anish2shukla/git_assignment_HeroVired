@@ -17,15 +17,13 @@ This repository demonstrates Git and GitHub workflows including branching, mergi
 
 ### **Q1: Feature Implementation in CalculatorPlus App**
 
-#### 🔨 Steps Followed:
-
-1. ** Created a Repository: git_assignment_HeroVired Branch -Dev
-2. **Added initial code:
+1. Created a Repository: git_assignment_HeroVired Branch -Dev
+2. Added initial code:
     - Basic arithmetic functions: add, subtract, multiply, divide
-3. **Tested Code**: All basic arithmatic functions were tested
-4. **Merged dev branch to main and created a release Tagged as v1.0
-5. **Code Review and Collaboration with a colleaugue on GitHub
-6. **Pull Request and code review : feature/sqrt ➝ main Merged feature/sqrt to dev Finalally Merged dev to main and created a release tagged as v2.0
+3. Testing: All basic arithmatic functions were tested
+4. Merged dev branch to main and created a release Tagged as v1.0
+5. Code Review and Collaboration with a colleaugue on GitHub
+6. Pull Request and code review : feature/sqrt ➝ main Merged feature/sqrt to dev Finalally Merged dev to main and created a release tagged as v2.0
 
 
 
