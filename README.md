@@ -61,7 +61,7 @@ git stash
 8. Switch to `feature/rectangle-area` branch
 9.  Get the stashed code & completed rectangle area code commit & push.
 
- 🔁 Pull Requests
+Pull Requests
 10. Created PRs to `dev` from both branches
 11. Reviewed and approved by reviewer
 12. Merged both features to `dev`
